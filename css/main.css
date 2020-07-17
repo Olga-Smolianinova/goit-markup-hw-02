@@ -1,0 +1,95 @@
+/*секция Преимущества  внимание к деталям - hover */
+/* Контакты hover +focus */
+
+/* основной color: #212121; секции*/
+/* вторичный color: #757575; абзацы */
+/* белый color: #FFFFFF; h1, футер, чем мы занимаемся */
+/* синий акцент color: #2196F3; ховер, фон кнопок, синий цвет */
+/* футер rgba(255, 255, 255, 0.6); */
+/* вторичный background: #F5F4FA */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+}
+body {
+  background-color: ffffff;
+  /* color: #212121; */
+}
+.list {
+  list-style: none;
+}
+h3 {
+  color: var(--title-text-color);
+}
+
+/* Header/Navigation */
+.logo {
+  color: #000000;
+}
+.logo-web {
+  color:var(--accent-color);
+}
+.navigation link {
+  color: #212121;
+}
+.navigation link:hover,
+.navigation link:focus {
+  color: #2196f3;
+}
+.navigation .link.current{
+    color: var(--accent-color);
+}
+
+.contacts-nav a{
+    color: var(--primary-text-color);
+}
+.contacts-nav a:hover, 
+.contacts-nav a:focus {
+    color: var(--accent-color);
+}
+
+/* Hero section 1 */
+.hero {
+}
+.hero-title {
+  color: #ffffff;
+  background-color: rgba(47, 48, 58, 0.8);
+}
+.button{
+color: var(--white-color);
+background-color: var(--accent-color);
+}
+
+/* Sections */
+.section {
+}
+.section-title {
+  color: var(--title-text-color);
+}
+.section-text{
+    color: var(--primary-text-color);
+}
+
+.work-item h3 {
+  color: var(--white-color);
+  background-color: rgba(47, 48, 58, 0.8); */
+}
+/* Footer */
+.footer{
+    background-color: #2F303A;
+}
+.footer-logo{
+    color: var(--white-color);
+}
+.adress{
+  color: var(--white-color)
+}
+.adress a{
+  color:rgba(255, 255, 255, 0.6);
+}
+.footer-title{
+  color: var(--white-color)
+}
