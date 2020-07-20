@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Портфолио</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/common.css" />
     <link rel="stylesheet" href="./css/main.css" />
@@ -34,7 +38,7 @@
       <section>
         <h1>Портфолио</h1>
         <!-- Панель кнопок навигации -->
-        <ul>
+        <ul class="work-types list">
           <li><button type="button">Все</button></li>
           <li><button type="button">Веб-сайты</button></li>
           <li><button type="button">Приложения</button></li>
@@ -43,7 +47,7 @@
         </ul>
 
         <!-- Список работ -->
-        <ul>
+        <ul class="list">
           <li>
             <a href="">
               <h2>Технокряк</h2>
@@ -152,10 +156,12 @@
       </section>
     </main>
     <!-- Footer container-->
-    <footer>
+    <footer class="footer">
       <div>
-        <a href="/">Web Studio</a>
-        <address>
+        <a href="/" class="footer-logo"
+          ><span class="logo-web">Web</span> Studio</a
+        >
+        <address class="adress">
           г. Киев, пр-т Леси Украинки, 26 <br />
           <a href="mailto:info@example.com">info@example.com</a><br />
           <a href="tel:+380991111111">+38 099 111 11 11</a>
@@ -163,7 +169,7 @@
       </div>
 
       <div>
-        <p>Присоединяйтесь</p>
+        <p class="footer-title">Присоединяйтесь</p>
         <ul>
           <li>
             <a href="" aria-label="ссылка Инстаграм"></a>
@@ -178,6 +184,11 @@
             <a href="" aria-label="ссылка Линкедин"></a>
           </li>
         </ul>
+      </div>
+
+      <div>
+        <p class="footer-title">Подпишитесь на рассылку</p>
+        <button class="button">Подписаться</button>
       </div>
     </footer>
   </body>
